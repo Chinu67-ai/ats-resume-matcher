@@ -31,10 +31,10 @@ if analyze:
 
         st.write(f"### Match Score: {score:.2f}%")
 
-        st.write("✅ Matched Skills:")
+        st.write(" Matched Skills:")
         st.write(matched)
 
-        st.write("❌ Missing Skills:")
+        st.write(" Missing Skills:")
         st.write(missed)
 
     else:
